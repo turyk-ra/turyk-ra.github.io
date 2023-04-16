@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: #583E26;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main-page-content{
+    margin: 0 255px;
+    text-align: center;
+}
+
+.main-page-content p{
+    text-align: justify;
+}
+
+#header-nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 60px 20px;
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+#logo {
+    height: 300px;
+    width: 1200px;
+}
+
+span{
+    font-weight: bold;
+}
+
+h3{
+    text-transform: uppercase;
+}
