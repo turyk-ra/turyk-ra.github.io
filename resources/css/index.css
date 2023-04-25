@@ -1,18 +1,13 @@
-/*#033540
-#015366
-#63898C
-#A7D1D2
-#E0F4F5*/
-
 /*elements*/
 body {
     /* font-family: 'Amatic SC', cursive; */
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 20px;
-    color: black;
+    color: #ededed;
     /* background-image: url(/resources/images/wallpaperflare.com_wallpaper.jpg); */
     background-size: 100%;
+    background-color: #081b29;
     padding: 0;
     margin: 0;
 }
@@ -26,8 +21,12 @@ header {
 }
 
 a {
-    color:black;
+    color: #ededed;
     text-decoration: none;
+}
+
+h3{
+    color:#e0f000;
 }
 
 article {
@@ -44,16 +43,19 @@ h3,h2 {
 }
 
 h2:hover{
+    color: #e0f000;
+    border-radius: 15%;
     box-shadow: 0 0 10px 10px;
+    transition: .3s;
 }
 
 figcaption {
     display: table;
     font-size: smaller;
-    color:#e79e47;
+    color:#e0f000;
     position: absolute;
     bottom: 50px;
-    background-color: black;
+    background-color: #081b29;
     height: 45px;
     width: 190px;
     opacity: 70%;
@@ -91,8 +93,14 @@ p.figcaption-description{
 .read_more_links{
     display: grid;
     margin: 15px 40px;
-    justify-items: start;
-    border-top: 1px solid black;
+    justify-items: center;
+    border-top: 2px solid #e0f000;
+}
+
+.read_more_links:hover{
+    color:#e0f000;
+    box-shadow: 0 0 10px 10px;
+    transition: .3s;
 }
 
 /* ids */
