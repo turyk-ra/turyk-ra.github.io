@@ -6,9 +6,13 @@
 
 /*elements*/
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #fff;
-    background-color: #583E26;
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    /* background-image: url(/resources/images/wallpaperflare.com_wallpaper.jpg); */
+    background-size: 100%;
     padding: 0;
     margin: 0;
 }
@@ -22,13 +26,12 @@ header {
 }
 
 a {
-    color: #E0F4F5;
+    color:black;
     text-decoration: none;
 }
 
 article {
     display: flex;
-    background-color: #A78B71;
     position: relative;
 }
 
@@ -36,24 +39,34 @@ span {
     font-weight: bold;
 }
 
-h3 {
+h3,h2 {
     text-transform: uppercase;
-    color: #F7C815;
+}
+
+h2:hover{
+    box-shadow: 0 0 10px 10px;
 }
 
 figcaption {
+    display: table;
+    font-size: smaller;
+    color:#e79e47;
     position: absolute;
     bottom: 50px;
     background-color: black;
     height: 45px;
     width: 190px;
-    text-align: left;
     opacity: 70%;
+}
+
+section{
+    display: grid;
+    align-content: center;
 }
 
 /* classes */
 .main-page-content {
-    margin: 0 255px;
+    margin: 0 230px;
     text-align: center;
 }
 
@@ -62,17 +75,24 @@ figcaption {
 }
 
 .article-images{
+    border-radius: 10px;
     height: 400px;
     width: 430px;
 }
 
 .article-p{
-    margin: 0 60px;
-    padding-top: 70px;
+    margin: 0 40px;
 }
 
 p.figcaption-description{
     text-align: center;
+}
+
+.read_more_links{
+    display: grid;
+    margin: 15px 40px;
+    justify-items: start;
+    border-top: 1px solid black;
 }
 
 /* ids */
